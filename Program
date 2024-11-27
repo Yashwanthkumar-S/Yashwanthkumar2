@@ -463,8 +463,39 @@ o	Below 60: Grade F
 Program
 ~~~~~~~
 
+#include<stdio.h>
+void main()
+{ 
+    printf("~~~~~~~~~~~~~~~~~~~~~~~");
+    printf(" \nSAI SUDHARSAN I CSBS");
+    printf("\n~~~~~~~~~~~~~~~~~~~~~~~~");
+    int mark; 
+    printf("\nEnter the score of the students:"); 
+    scanf("%d",&mark); if(mark>=90)
+    { 
+        printf("\nGrade A"); } else if(mark>=80) { printf("\nGrade B");
+        } 
+        else if(mark>=70)
+        { printf("\nGrade C");
+        } 
+        else if(mark>=60)
+        { 
+            printf("\nGrade D");
+            } 
+            else 
+            { printf("\nGrade F"); } 
+    
+}
+
 Output
 ~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~ 
+
+SAI SUDHARSAN I CSBS
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+Enter the score of the students:99
+Grade A
 ```````````````````````````````````````````````````````````````````````````````````````````````````
 Simple Calculator Using Switch Case
 •	Problem: Write a C program to perform basic arithmetic operations (+, -, *, /) based on user input using a switch statement.
