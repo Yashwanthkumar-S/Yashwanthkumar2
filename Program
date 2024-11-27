@@ -68,15 +68,35 @@ Check if a Number is Even or Odd
 Program
 ~~~~~~~
 
-
-
-
-
+#include <stdio.h>
+void main()
+{
+    printf("~~~~~~~~~~~~~~~~~~~~~");
+    printf("\n PRAVIN J I CSBS");
+    printf("\n~~~~~~~~~~~~~~~~~~~~~~");
+    int x;
+    printf("\nEnter a number:");
+    scanf("%d",&x);
+    if(x%2==0)
+    {
+        printf("\nEven number.");
+    }
+    else
+    {
+        printf("\nodd number.");
+    }
+}
 
 
 
 Output
 ~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+ PRAVIN J I CSBS
+~~~~~~~~~~~~~~~~~~~~~~
+Enter a number:8
+Even number.
+
 ```````````````````````````````````````````````````````````````````````````````````````````````````
 
 Check Triangle Validity
